@@ -12,6 +12,15 @@ export default function About() {
           {about.paragraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
+          <img
+            className="about-hero-img"
+            src="/hero.png"
+            alt="Illustration of a developer at a desk with laptop in a creative office"
+            width={480}
+            height={480}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <ul className="about-tags" aria-label="Focus areas">
           {about.highlights.map((h) => (

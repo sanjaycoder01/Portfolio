@@ -225,6 +225,41 @@ html {
   color: var(--text);
 }
 
+.about-hero-img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transform-origin: 50% 60%;
+  animation: about-wobble 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-hero-img {
+    animation: none;
+  }
+}
+
+@keyframes about-wobble {
+  0%,
+  100% {
+    transform: rotate(-2.2deg) translateY(0);
+  }
+  25% {
+    transform: rotate(2deg) translateY(-4px);
+  }
+  50% {
+    transform: rotate(-1.5deg) translateY(2px);
+  }
+  75% {
+    transform: rotate(2.2deg) translateY(-3px);
+  }
+}
+
 .about-tags {
   list-style: none;
   margin: 0;

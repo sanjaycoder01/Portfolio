@@ -8,7 +8,7 @@ const nav = [
 export default function Header() {
   return (
     <header className="site-header">
-      <a className="site-logo" href="#top">
+      <a className="site-logo" href="/">
         Portfolio
       </a>
       <nav className="site-nav" aria-label="Primary">
