@@ -35,25 +35,20 @@ export const about = {
 
 export const projects = [
   {
+    title: 'ResearchMind AI — Document-Based RAG System',
+    description:
+      'Built a scalable backend for multi-PDF upload and semantic Q&A over documents. Implemented an asynchronous ingestion pipeline with BullMQ and Redis; used LlamaIndex for PDF parsing and chunking; stored embeddings in Pinecone for fast vector search; and orchestrated retrieval-augmented generation with LangGraph for accurate, context-aware answers.',
+    tech: ['Node Js', 'BullMQ', 'Redis', 'LlamaIndex', 'Pinecone', 'LangGraph'],
+    link: 'https://github.com/sanjaycoder01',
+    wip: true,
+  },
+  {
     title: 'E-commerce Full Stack Application',
     description:
       'Built a full-stack e-commerce platform with secure authentication, role-based access (Admin/User), product search and filtering, cart, checkout, payment integration, and order tracking.',
     tech: ['React Js', 'Node Js', 'MongoDB', 'Redux Toolkit', 'Vercel'],
-    link: 'https://github.com/sanjaycoder01',
-  },
-  {
-    title: 'Portfolio Application',
-    description:
-      'Developed a personal portfolio website using React Js and Vite Js with modular components, clean UI, smooth routing, and optimized loading performance.',
-    tech: ['React Js', 'Vite Js', 'React Router', 'Tailwind CSS'],
-    link: 'https://github.com/sanjaycoder01',
-  },
-  {
-    title: 'Industrial Defect Detection via Deep Computer Vision',
-    description:
-      'Developed an automated computer vision solution using CNNs and transfer learning for industrial visual quality control, with robust data pipelines and augmentation for imbalanced classes.',
-    tech: ['Python', 'CNNs', 'Transfer Learning', 'Computer Vision'],
-    link: 'https://github.com/sanjaycoder01',
+    link: 'https://e-commerce-fe-blush.vercel.app/',
+    linkLabel: 'View live app →',
   },
 ]
 
