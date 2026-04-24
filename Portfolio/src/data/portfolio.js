@@ -47,7 +47,7 @@ export const projects = [
     description:
       'Built a full-stack e-commerce platform with secure authentication, role-based access (Admin/User), product search and filtering, cart, checkout, payment integration, and order tracking.',
     tech: ['React Js', 'Node Js', 'MongoDB', 'Redux Toolkit', 'Vercel'],
-    link: 'https://e-commerce-fe-blush.vercel.app/',
+    link: 'https://e-commerce-fe-blush.vercel.app/login',
     linkLabel: 'View live app →',
   },
 ]
